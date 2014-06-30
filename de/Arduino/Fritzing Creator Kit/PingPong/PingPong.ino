@@ -14,8 +14,8 @@ int spaltenPins[8] = {13,8,17,10,5,16,4,14};   // Anschlüsse der Spaltenpins am
 // int reihenPins[8] = {9,3,2,12,55,11,7,6};      // Anschlüsse der Reihenpins am Arduino
 // int spaltenPins[8] = {13,8,57,10,5,56,4,54};   // Anschlüsse der Spaltenpins am Arduino
 
-int pot1Pin=18;                                        // Pin an dem das Potentiometer von Spieler 1 angeschlossen ist
-int pot2Pin=19;                                        // Pin an dem das Potentiometer von Spieler 2 angeschlossen ist
+int pot1Pin=4;                                        // Pin an dem das Potentiometer von Spieler 1 angeschlossen ist
+int pot2Pin=5;                                        // Pin an dem das Potentiometer von Spieler 2 angeschlossen ist
 
 int image[8][8]={                                      // Bild, das auf der Matrix gezeigt wird. 1 = LED an, 0 = LED aus
 {0,0,0,0,0,0,0,0},  
