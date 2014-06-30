@@ -14,8 +14,8 @@ int colPins[8] = {13,8,17,10,5,16,4,14};   // matrix columns connected to the Ar
 // int rowPins[8] = {9,3,2,12,55,11,7,6};       // matrix rows connected to the Arduino
 // int colPins[8] = {13,8,57,10,5,56,4,54};    // matrix columns connected to the Arduino
 
-int pot1Pin=18;                                // declaring the pin for player 1's potentiometer
-int pot2Pin=19;                                // declaring the pin for player 2's potentiometer
+int pot1Pin=4;                                // declaring the pin for player 1's potentiometer (Analog Input 4)
+int pot2Pin=5;                                // declaring the pin for player 2's potentiometer (Analog Input 5)
 
 int image[8][8]={                              // clear 
 {0,0,0,0,0,0,0,0},  
